@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MY name is star</title>
+		<link rel="stylesheet" href="css/Tubes203040037.css">
+		<script src="js/jquery-1.11.2.js"></script>
+	</head>
+	<body>
+	<!-- header -->
+		<div class="header">
+			<!-- tombol-tombol-->
+			<div class="wrapertombol">
+				<div class="tombolheader1 garisright">
+					<a class="link" href="index(login).html"><h3>Home</h3>
+				</div>
+
+				<div class="tombolheader1 garisright">
+					<a class="linkU" class="cantclicklink"><h3>About me</h3></a>
+				</div>
+
+				<div class="tombolheader1 garisright">
+					<a class="linkU" class="cantclicklink"><h3>Experience</h3></a>
+				</div>
+
+				<div class="tombolheader1">
+					<a class="linkU" class="cantclicklink"><h3>My works</h3></a>
+				</div>
+
+				<div class="tombolheader2 garisleft">
+					<a class="link" onclick="logout();"><h3>Logout</h3></a>
+				</div>
+
+				<div class="tombolheader2 garisleft">
+					<a class="linkU" class="cantclicklink"><h3>Contact me</h3></a>
+				</div>
+
+				<div class="tombolheader2 garisleft">
+					<a class="link" onclick="uploadportofolio('logout')"><h3>Upload Portofolio</h3></a>
+				</div>
+				
+
+				<!-- icontengah -->
+				<div class="icontengah"></div>
+				<div class="clear"></div>
+			</div>
+
+			<!-- iconguest -->
+			<div class="wrapertombolguest">
+				<p>Welcome Guest!</p>
+				<div class="iconguest"></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	<!-- end header -->
+
+
+
+	<!-- content -->
+		<div class="pagewraperportofolio">
+			<h2 class="tittle borderradiustittle">Upload Portofolio</h2>
+			<p>Selamat datang di halaman pengisian Portofolio/Biodata. Silahkan penuhi form-form dibawah ini</p>
+			<form>
+				<table>
+					<tr>
+						<!-- label -->
+						<td><label for="fullnm">Nama panjang</label></td>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td><input type="text" name="fullname" id="fullnm"></td>
+					</tr>
+
+					<tr>
+						<!-- label -->
+						<td><label for="nama">Nama Alias</label></tb>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td><input type="text" name="nama" id="nama"></td> 
+					</tr>
+
+					<tr>
+						<!-- label -->
+						<td><label for="gender">Jenis Kelamin</label></td>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td>
+							<input type="radio" name="jeniskelamin" id="gender">Pria
+							<input type="radio" name="jeniskelamin" id="gender">Wanita
+						</td> 
+					</tr>
+
+					<tr>
+						<!-- label -->
+						<td><label for="tgllahir">Tanggal Lahir</label></td>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td>
+							<select id="tgllahir">
+								<option name="hari" selected>--hari--</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select>
+							<select id="tgllahir">
+								<option name="bulan" selected>--bulan--</option>
+								<option value="1">januari</option>
+								<option value="2">februari</option>
+								<option value="3">maret</option>
+								<option value="4">april</option>
+								<option value="5">mei</option>
+								<option value="6">juni</option>
+								<option value="7">juli</option>
+								<option value="8">agustus</option>
+								<option value="9">september</option>
+								<option value="10">oktober</option>
+								<option value="11">november</option>
+								<option value="12">desember</option>
+							</select>
+							<select id="tgllahir">
+								<option name="tahun" selected>--tahun--</option>
+								<option value="2002">2002</option>
+								<option value="2001">2001</option>
+								<option value="2000">2000</option>
+								<option value="1999">1999</option>
+								<option value="1998">1998</option>
+								<option value="1997">1997</option>
+								<option value="1996">1996</option>
+								<option value="1995">1995</option>
+								<option value="1994">1994</option>
+								<option value="1993">1993</option>
+								<option value="1992">1992</option>
+								<option value="1991">1991</option>
+								<option value="1990">1990</option>
+								<option value="1989">1989</option>
+								<option value="1988">1988</option>
+								<option value="1987">1987</option>
+								<option value="1986">1986</option>
+								<option value="1985">1985</option>
+								<option value="1984">1984</option>
+								<option value="1983">1983</option>
+								<option value="1982">1982</option>
+							</select>
+						</td> 
+					</tr>
+
+					<tr>
+						<!-- label -->
+						<td><label for="agama">Agama</label></td>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td>
+							<input type="radio" name="agama" id="agama">Islam
+							<input type="radio" name="agama" id="agama">Kristen
+							<input type="radio" name="agama" id="agama">Hindu
+							<input type="radio" name="agama" id="agama">Budha
+						</td>
+					</tr>
+
+					<tr>
+						<!-- label -->
+						<td><label for="alamat">Alamat</label></td>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td><input type="text" name="alamat" id="alamat"></td> 
+					</tr>
+
+					<tr>
+						<!-- label -->
+						<td><label for="kota">Kota</label></td>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td>
+							<select id="kota">
+								<option name="jenis baju" selected>--Kota--</option>
+								<option value="Bandung">Bandung</option>
+								<option value="Jogjakarta">Jogjakarta</option>
+								<option value="Jakarta">Jakarta</option>
+								<option value="Surabaya">Surabaya</option>
+								<option value="Aceh">Aceh</option>
+								<option value="subang">subang</option>
+								<option value="lainya">Lainya</option>
+							</select>
+						</td>
+					</tr>
+
+
+					<tr>
+						<!-- label -->
+						<td><label for="email">Email</label></td>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td><input type="text" name="username" id="email"></td> 
+					</tr>
+
+					<tr>
+						<!-- label -->
+						<td><label for="HP">Nomor HP</label></td>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td><input type="text" name="HP" id="HP"></td> 
+					</tr>
+
+					<tr>
+						<!-- label -->
+						<td><label for="hobby">hobby</label></tb>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td><input type="text" name="hobby" id="hobby"></td> 
+					</tr>
+				
+					<tr>
+						<!-- label -->
+						<td><label for="Pesan-pesan">Pesan-pesan</label></td>
+						<!-- titik dua -->
+						<td>:</td>
+						<!-- isi -->
+						<td>
+							<textarea rows="3" cols="50" name="komentar" id="Pesan-pesan"></textarea>
+						</td> 
+					</tr>
+				</table>
+
+				<button class="tombolportofoliosubmit" type="submit">Submit</button>
+				<button class="tombolportofolioreset" type="reset">Reset</button>
+			</form>	
+		</div>
+	<!-- end content -->
+
+
+
+
+	<!-- footer -->
+		<div class="footer">
+			<p>Site content Copyright &copy; 2020.Bintang Yandi Putra</p>
+		</div>
+	<!-- end footer -->
+
+
+
+	<!-- script -->
+		<script src="js/Tubes203040037.js"></script>
+	<!-- end script -->
+	</body>
+</html>

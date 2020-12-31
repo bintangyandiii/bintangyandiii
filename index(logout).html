@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>welcome to my page</title>
+		<link rel="stylesheet" href="css/Tubes203040037.css">
+		<script src="js/jquery-1.11.2.js"></script>
+		
+	</head>
+	<body>
+	<!-- header -->
+		<div class="header">
+
+			<!-- tombol-tombol-->
+			<div class="wrapertombol">
+				<div class="tombolheader1 garisright">
+					<a id="tombolhome" onclick="tombol('home')" class="link" href="#tothetop"><h3>Home</h3>
+				</div>
+
+				<div class="tombolheader1 garisright">
+					<a id="tombolaboutme" onclick="tombol('aboutme')" class="link" href="#tentangsaya"><h3>About me</h3></a>
+				</div>
+
+				<div class="tombolheader1 garisright">
+					<a class="link" href="#pengalaman"><h3>Experience</h3></a>
+				</div>
+
+				<div class="tombolheader1">
+					<a class="link" href="#mywork"><h3>My Skill</h3></a>
+				</div>
+
+				<div class="tombolheader2 garisleft">
+					<a class="link" onclick="masuklogin('tampilkan','halamanlogin');"><h3>Login</h3></a>
+				</div>
+
+				<div class="tombolheader2 garisleft">
+					<a class="link" href="#contactme"><h3>Contact me</h3></a>
+				</div>
+
+				<div class="tombolheader2 garisleft">
+					<a class="link" onclick="uploadportofolio('login')"><h3>Upload Portofolio</h3></a>
+				</div>
+			</div>
+		</div>
+	<!-- end header -->
+
+
+
+
+
+
+
+	<!-- loginpage -->
+		<div id="halamanlogin" style="display: none;" class="bglogin">
+			<div class="loginpage">					
+
+				<div class="tombolX" onclick="masuklogin('sembunyi','halamanlogin');">Close</div>
+
+				<div class="isinya">
+					<ul>
+						<li><label for="username">Username :</label>
+						<li><input type="text" name="username" id="username" placeholder="username">
+
+						<li><label for="password">Password :</label>
+						<li><input type="password" id="password" placeholder="password">
+						<li><input type="button" value="login" id="button" onclick="login()">
+					</ul>
+					<p>Forgot password/username? <a href="img/usernamepassword.txt">click here</a></p>
+
+					<div class="imagelogin"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	<!-- content -->
+	<div class="pagewraper">
+		<!-- tombol back untuk keatas -->
+		<a href="#tothetop" class="tombolkeatas"></a>
+
+		<!-- bgtop -->
+		<div class="bgtop"></div>
+
+		<!-- tulisantop -->
+		<div class="topwriting">
+			<div class="topinvisible" id="tothetop"></div>
+			<h1>HELLO MY NAME IS BINTANG YANDI PUTRA</h1>
+			 
+		</div>
+		
+
+
+
+		<!-- about me -->
+		<div class="topinvisible" id="tentangsaya"></div>
+		<div class="tentangsaya">
+			<h2 class="tittle borderradiustittle">About me</h2>
+			<p>lahir di bandung tanggal 18-maret-2002 dan tetap tinggal di bandung hingga sekarang. Lulusan sma bpi2 bandung dan sekarang melanjutkan di Universitas Pasundan (UNPAS),dengan mengambil jurusan informatika.</p>
+
+			<div class="imagesaya floatright"></div>
+
+			<p>Saya adalah Bintang Yandi Putra, tidak ada nama unik atau nama khusus untuk panggilan tetapi teman teman saya biasa memangil saya dengan nama depan saya yaitu bin adapun yang memanggil tang dan kadang ada yang menggil saya dengan sebutan star, tapi ada seorang yang menyebut saya dengan nama gosong. Saya tidak pernah mempermasalahkan hal tersebut.</p>
+
+			<p>Hobby saya adalah Berolahraga dan bermain game, tapi yang paling saya sukai adalah bermain basket bersama teman teman saya.</p>
+
+			<p>saya juga memiliki ketertarikan terhadap musik, waktu luang selain berolahraga saya juga belajar gitar tetapi saya tidak berani bermain di tempat umum karena skill saya yang sangat minim tentang musik. terkadang saya juga mendengarkan lagu dan menonton movie, akan tetapi saya tidak menyukai movie yang terlalu banyak drama di dalamnya.</p>
+			<div class="clear"></div>
+		</div>
+
+
+
+
+		<!-- pengalaman -->
+		<div class="topinvisible" id="pengalaman"></div>
+		<div class="pengalaman">
+			<h2 class="tittle">Experience</h2>
+
+			<div class="imagewip floatleft"></div>
+
+			<p>Pengalaman saya dalam dunia teknologi masih sedikit, masih banyak yang harus dipelajari. Meskipun saya belum ahli tetapi saya bisa mengatakan bahwa saya tertarik pada semua ini. Saya kebanyakan bertahan dengan Css, belum terlalu bagus dengan javascript.</p>
+
+			<p>jika dalam kehidupan saya, saya memiliki berbagai macam pengalaman yang cukup menari seperti mengikuti berbagai perlombaan olahraga dan saya sesekali mengikuti drama musikal dan kabaret ya walaupun tidak sesering dalam olahraga.</p>
+
+			<p>Pengalaman saya dalam mempelajari web design atau pemograman web ini belum maksimal, atau saya masih dalam tahap untuk mengetahui dan belajar mendesaign, membuat web lebih dalam lagi. </p>
+			<div class="clear"></div>
+		</div>
+
+
+
+
+
+
+		<!-- my skill -->
+		<div class="topinvisible" id="mywork"></div>
+		<h2 class="tittle">My skill</h2>
+		<div class="mywork">
+			<p>jika kalian sangat ingin melihat skill saya lebih baik kalian login terlebih dahulu.</p>
+		</div>
+
+		<!-- contact me -->
+		<div class="topinvisible" id="contactme"></div>
+		<div class="contactme">
+			<h2 class="tittle">Contact me</h2>
+			<p>Jika ingin menanyakan sesuatu kalian bisa mengontak ini "acutyp9@gmail.com" atau kalian juga bisa mengontak akun sosmed saya: </p>
+
+			<a href="https://www.facebook.com/bintang.yandi.putra/" class="iconfirst facebook">
+				<img src="https://cdn.icon-icons.com/icons2/639/PNG/512/social_media_logo_facebook_icon-icons.com_59059.png" height="50px"></a>
+			
+			<a href="https://www.instagram.com/bintangyandiii/" class="iconsosmed instagram">
+				<img src="https://cdn.icon-icons.com/icons2/639/PNG/512/social_media_logo_instagram_icon-icons.com_59062.png" height="50px"></a>
+			
+			<a href="https://web.whatsapp.com/" class="iconsosmed whatsapp"><img src="https://cdn.icon-icons.com/icons2/639/PNG/512/social_media_logo_whatsapp_icon-icons.com_59066.png" height="50px"></a>
+
+			<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="iconsosmed gmail"></a>
+			
+			<div class="clear"></div>
+			<br>
+		</div>
+
+
+	</div>
+<!-- end content -->
+
+
+
+
+<!-- footer -->
+	<div class="footer">
+		<p>Site content Copyright &copy; 2020. bintang yandi</p>
+	</div>
+<!-- end footer -->
+
+
+<!-- script -->
+	<script src="js/Tubes203040037.js"></script>
+<!-- end script -->
+</body>
+</html>

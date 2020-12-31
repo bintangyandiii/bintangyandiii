@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My NAME is BINTANG</title>
+		<link rel="stylesheet" href="css/Tubes203040037.css">
+		<script src="js/jquery-1.11.2.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+	</head>
+	<body>
+	<!-- header -->
+		<div class="header">
+
+			<!-- tombol-tombol-->
+			<div class="wrapertombol">
+				<div class="tombolheader1 garisright">
+					<a id="tombolhome" onclick="tombol('home')" class="link" href="#tothetop"><h3>Home</h3>
+				</div>
+
+				<div class="tombolheader1 garisright">
+					<a id="tombolaboutme" onclick="tombol('aboutme')" class="link" href="#tentangsaya"><h3>About me</h3></a>
+				</div>
+
+				<div class="tombolheader1 garisright">
+					<a class="link" href="#pengalaman"><h3>Experience</h3></a>
+				</div>
+
+				<div class="tombolheader1">
+					<a class="link" href="#mywork"><h3>My skill</h3></a>
+				</div>
+
+				<div class="tombolheader2 garisleft">
+					<a class="link" onclick="logout();"><h3>Logout</h3></a>
+				</div>
+
+				<div class="tombolheader2 garisleft">
+					<a class="link" href="#contactme"><h3>Contact me</h3></a>
+				</div>
+
+				<div class="tombolheader2 garisleft">
+					<a class="link" onclick="uploadportofolio('logout')"><h3>Upload Portofolio</h3></a>
+				</div>
+				
+
+			</div>
+			<div class="wrapertombolguest">
+				<p>HI sayang!</p>
+				<div class="iconguest"></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	<!-- end header -->
+
+
+
+	<!-- content -->
+		<div class="pagewraper">
+			<!-- tombol back untuk keatas -->
+			<a href="#tothetop" class="tombolkeatas"></a>
+
+			<!-- bgtop -->
+			<div class="bgtop"></div>
+
+			<!-- tulisantop -->
+			<div class="topwriting">
+				<div class="topinvisible" id="tothetop"></div>
+				<h1>HELLO MY NAME IS BINTANG</h1> 
+			</div>
+			
+
+
+
+			<!-- about me -->
+			<div class="topinvisible" id="tentangsaya"></div>
+			<div class="tentangsaya">
+				<h2 class="tittle borderradiustittle">About me</h2>
+				<p>lahir di bandung tanggal 18-maret-2002 dan tetap tinggal di bandung hingga sekarang. Lulusan sma bpi2 bandung dan sekarang melanjutkan di Universitas Pasundan (UNPAS),dengan mengambil jurusan informatika.</p>
+
+				<div class="imagesaya floatright"></div>
+
+				<p>Saya adalah Bintang Yandi Putra, tidak ada nama unik atau nama khusus untuk panggilan tetapi teman teman saya biasa memangil saya dengan nama depan saya yaitu bin adapun yang memanggil tang dan kadang ada yang menggil saya dengan sebutan star, tapi ada seorang yang menyebut saya dengan nama gosong. Saya tidak pernah mempermasalahkan hal tersebut.</p>
+
+				<p>Hobby saya adalah Berolahraga dan bermain game dan yang paling saya sukai adalah bermain basket bersama teman teman saya.</p>
+
+				<p>saya juga memiliki ketertarikan terhadap musik, waktu luang selain berolahraga saya juga belajar gitar tetapi saya tidak berani bermain di tempat umum karena skill saya yang sangat minim tentang musik. terkadang saya juga mendengarkan lagu dan menonton movie, akan tetapi saya tidak menyukai movie yang terlalu banyak drama di dalamnya.</p>
+				<div class="clear"></div>
+			</div>
+
+
+
+
+			<!-- pengalaman -->
+			<div class="topinvisible" id="pengalaman"></div>
+			<div class="pengalaman">
+				<h2 class="tittle">Experience</h2>
+
+				<div class="imagewip floatleft"></div>
+
+				<p>Pengalaman saya dalam dunia teknologi masih sedikit, masih banyak yang harus dipelajari. Meskipun saya belum ahli tetapi saya bisa mengatakan bahwa saya tertarik pada semua ini. Saya kebanyakan bertahan dengan Css, belum terlalu bagus dengan javascript.</p>
+
+				<p>jika dalam kehidupan saya, saya memiliki berbagai macam pengalaman yang cukup menarik seperti mengikuti berbagai perlombaan olahraga dan saya sesekali mengikuti drama musikal dan kabaret ya walaupun tidak sesering dalam olahraga.</p>
+
+				<p>Pengalaman saya dalam mempelajari web design atau pemograman web ini belum maksimal, atau saya masih dalam tahap untuk mengetahui dan belajar mendesaign, membuat web lebih dalam lagi dan Jujur saja untuk sekarang saya kesulitan dalam penggunaan javascript. </p>
+				<div class="clear"></div>
+			</div>
+
+
+
+
+
+
+			<!-- my skill -->
+			<div class="topinvisible" id="mywork"></div>
+			<h2 class="tittle">My skill</h2>
+			<div class="mywork">
+				<p>Ini adalah semua skill yang saya miliki, walaupun tidak banyak tetapi yang terpenting memiliki skill yang bermanfaat dan berikut adalah presentasi skill saya :</p>
+
+				<div class="wrapper">
+					<div class="card">
+					  <div class="circle">
+						<div class="bar"></div>
+						<div class="box"><span></span></div>
+					  </div>
+					  <div class="text">OLAHRAGA</div>
+					</div>
+					<div class="card 1">
+					  <div class="circle">
+						<div class="bar"></div>
+						<div class="box"><span></span></div>
+					  </div>
+					  <div class="text">PROGRAMING</div>
+					</div>
+					<div class="card 2">
+					  <div class="circle">
+						<div class="bar"></div>
+						<div class="box"><span></span></div>
+					  </div>
+					  <div class="text">musik & Game</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- contact me -->
+			<div class="topinvisible" id="contactme"></div>
+			<div class="contactme">
+				<h2 class="tittle">Contact me</h2>
+				<p>Jika ingin menanyakan sesuatu kalian bisa mengontak ini "acutyp9@gmail.com" atau kalian juga bisa mengontak akun sosmed saya: </p>
+
+				<a href="https://www.facebook.com/bintang.yandi.putra/" class="iconfirst facebook">
+					<img src="https://cdn.icon-icons.com/icons2/639/PNG/512/social_media_logo_facebook_icon-icons.com_59059.png" height="50px"></a>
+				
+				<a href="https://www.instagram.com/bintangyandiii/" class="iconsosmed instagram">
+					<img src="https://cdn.icon-icons.com/icons2/639/PNG/512/social_media_logo_instagram_icon-icons.com_59062.png" height="50px"></a>
+				
+				<a href="https://web.whatsapp.com/" class="iconsosmed whatsapp"><img src="https://cdn.icon-icons.com/icons2/639/PNG/512/social_media_logo_whatsapp_icon-icons.com_59066.png" height="50px"></a>
+				
+				<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="iconsosmed gmail"></a>
+				
+				<div class="clear"></div>
+				<br>
+			</div>
+
+
+		</div>
+	<!-- end content -->
+
+
+
+
+	<!-- footer -->
+		<div class="footer">
+			<p>Site content Copyright &copy; 2020. bintang yandi</p>
+		</div>
+	<!-- end footer -->
+
+	
+	<!-- script -->
+		<script src="js/Tubes203040037.js"></script>
+	<!-- end script -->
+	</body>
+</html>
